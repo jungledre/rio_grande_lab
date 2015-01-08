@@ -8,8 +8,8 @@ describe Ebook do
   end
 
   describe "Initialization" do
-    it "is an instance of the Item class" do
-      expect(@ebook.class.superclass).to eq(Item)
+    it "is an instance of the DigitalItem class" do
+      expect(@ebook.class.superclass).to eq(DigitalItem)
     end
     it "is assigned a name" do
       expect(@ebook.name).to eq("Generic Ebook")
@@ -20,8 +20,8 @@ describe Ebook do
   end
 
   describe "Extended" do
-    it "is an instance of the Item class" do
-      expect(Ebook.superclass).to eq(Item)
+    it "is an instance of the DigitalItem class" do
+      expect(Ebook.superclass).to eq(DigitalItem)
     end
   end
 
