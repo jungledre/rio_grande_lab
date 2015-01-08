@@ -1,1 +1,1 @@
-# You are on your own... good luck.
+require_relative 'Digitalitem.rb'
